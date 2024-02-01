@@ -5,7 +5,7 @@ h1 {
 
     text-align: center;
     font-size: 55px;
-    color: rgb(243, 181, 181);
+    color: rgb(0, 208, 255);
     text-decoration-line: underline;
 }
 
@@ -26,9 +26,9 @@ h2 {
 }
 
 body {
-    background: rgb(37,8,47);
-    background: linear-gradient(45deg, rgba(37,8,47,1) 0%, rgba(0,0,0,1) 100%);
+    background: rgb(0, 0, 0);
     background-repeat: no-repeat;
+    background-image: url(../images/pozadí.gif);
 }
 
 footer {
@@ -39,5 +39,10 @@ footer {
     left: 0px;
     right: 0px;
     margin-bottom: auto;
+}
+
+.zpet a {
+    font-size: x-large;
+    text-decoration-line: none;
 }
 
