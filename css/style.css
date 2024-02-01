@@ -1,9 +1,14 @@
-h1{
+html{
+    height: 100%;
+}
+h1 {
+
     text-align: center;
     font-size: 55px;
-    color: red;
+    color: rgb(243, 181, 181);
     text-decoration-line: underline;
 }
+
 footer {
     text-align: center;
 }
@@ -13,4 +18,26 @@ h2 {
 #seznam_dnu{
     list-style-type: none;
     font-size: 20px;
+    columns: 6;
 }
+
+.tabulka{
+    height: 11.2em;
+}
+
+body {
+    background: rgb(37,8,47);
+    background: linear-gradient(45deg, rgba(37,8,47,1) 0%, rgba(0,0,0,1) 100%);
+    background-repeat: no-repeat;
+}
+
+footer {
+    position: fixed;
+    height: 20px;
+    background-color: rgb(0, 0, 0);
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: auto;
+}
+
