@@ -9,6 +9,7 @@ header h1{
 
 h2 {
     font-size: xx-large;
+    color: white;
 }
 
 body {
@@ -61,11 +62,12 @@ footer {
     left: 0px;
     right: 0px;
     margin-bottom:0%;
+    color: white;
 
     grid-area: f;
 }
 .zpet a {
     font-size: x-large;
     text-decoration-line: none;
+    color: white;
 }
-
