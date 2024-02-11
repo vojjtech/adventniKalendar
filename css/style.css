@@ -2,9 +2,7 @@ header h1{
     text-align: center;
     font-size: 55px;
     color: rgb(0, 208, 255);
-    margin-top: 0%;
-    height: 60px;
-    grid-area: h;
+    text-decoration-line: underline;
 }
 
 h2 {
@@ -49,8 +47,10 @@ body {
                         "m"
                         "f";
     grid-template-rows: 60px 1fr auto;
-    gap:0px
-
+    gap:0px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-image: url(../images/pozadí.gif);
 }
 
 footer {
@@ -65,3 +65,8 @@ footer {
 
     grid-area: f;
 }
+.zpet a {
+    font-size: x-large;
+    text-decoration-line: none;
+}
+
